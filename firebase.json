@@ -1,0 +1,11 @@
+{
+   "hosting": {
+      "site": "shadowlands-icecrown-tracker",
+      "public": "public",
+      "ignore": [
+         "firebase.json",
+         "**/.*",
+         "**/node_modules/**"
+      ]
+   }
+}

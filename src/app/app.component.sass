@@ -1,0 +1,50 @@
+body
+   font-family: system-ui, sans-serif
+   color: white
+
+.container
+   max-width: 1300px
+   display: flex
+   flex-direction: column
+   align-items: center
+   margin: 0 auto
+
+.preferences
+   margin: 10px 0
+
+.map-container
+   display: inline-flex
+   position: relative
+   margin: 10px auto
+
+.marker-group
+   position: absolute
+   transform: translate(-50%, -50%)
+   color: white
+   font-size: 10px
+   line-height: 1
+   font-weight: 600
+   font-family: system-ui, sans-serif d
+   text-shadow: 3px 3px 3px black, -3px -3px 3px black, -3px 3px 3px black, 3px -3px 3px black
+
+   display: flex
+   justify-content: center
+   align-items: center
+   flex-direction: column
+
+   .marker
+      width: 16px
+
+   .marker-name
+      width: 81px
+      text-align: center
+
+   .marker-coord
+      color: orange
+
+.info
+   margin: 10px 0
+
+   nz-collapse
+      margin: 10px 0
+
